@@ -1,0 +1,13 @@
+.container
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    padding:20px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
