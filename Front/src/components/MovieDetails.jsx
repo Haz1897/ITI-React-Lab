@@ -26,7 +26,7 @@ export default function MovieDetails()
                     <Card variant="outlined" >
                         <CardContent >
                             <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-                                Rating:
+                                Rating: {movie?.rating}
                             </Typography>
                             <Typography variant="h5" component="div">
                                 {movie?.movieName}
